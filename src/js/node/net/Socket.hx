@@ -209,7 +209,6 @@ extern class Socket extends js.node.stream.Duplex<Socket> {
 		Construct a new socket object.
 	**/
 	function new(?options:SocketOptions);
-
 	/**
 		Opens the connection for a given socket.
 
